@@ -1,0 +1,26 @@
+#doctype awdf
+===== HEADER =====
+----- Smaller Header With Similar Style -----
+! Title
+!! Subtitle
+!!! Mini sub-heading
+!!!! Basically just a paragraph but bolder
+!!!!! Slightly smaller than a paragraph
+
+This is a paragraph
+
+And this is a paragraph with ** BOLD ** text
+
+** Very bold **
+
+Not very bold \\
+Now this is after a linebreak
+
+__ Italics __ \\
+__ Italics __ after a linebreak
+
+** __ Italics with bold __ ** \\
+And now just a regular linebreak \\
+But now with ** __ a bit of __ ** ** bold ** and __ italics __ \\
+
+"" Block quote with ** __ a bit of __ ** ** bold ** and __ italics __ ""

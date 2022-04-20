@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 5px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 9999px;
+    background-color: #AAAAAA;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #999999;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container {
+    height: 1056px;
+    width: 816px;
+    background-color: #fffaf0;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px auto;
+}
+
+#data {
+    padding: 75px;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 20px 2em;
+    padding: 1em 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 8px;
+}
+
+.h,
+.hs {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-size: 3em;
+}
+
+.h span,
+.hs span {
+    background: #fffaf0;
+    padding: 0 10px;
+}
+
+.hs {
+    font-size: 2em;
+}
